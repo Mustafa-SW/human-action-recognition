@@ -28,3 +28,10 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - Video processing
 - Pose estimation
 - Action classification
+
+## Day 2
+
+- Learned Dataset class
+- Learned DataLoader
+- Loaded CSV data
+- Created mini-batches

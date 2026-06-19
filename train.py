@@ -1,19 +1,23 @@
-import torch
+from torch.utils.data import DataLoader
 
-print("=== PyTorch Basics ===")
+from datasets.custom_dataset import ActionDataset
 
-x = torch.tensor([1, 2, 3])
+dataset = ActionDataset("data/sample_data.csv")
 
-print("Tensor:")
-print(x)
+print("Dataset Size:", len(dataset))
 
-matrix = torch.rand(3, 3)
+loader = DataLoader(
+    dataset,
+    batch_size=2,
+    shuffle=True
+)
 
-print("\nRandom Matrix:")
-print(matrix)
+for features, labels in loader:
 
-print("\nShape:")
-print(matrix.shape)
+    print("Features:")
+    print(features)
 
-print("\nMean:")
-print(matrix.mean())
+    print("Labels:")
+    print(labels)
+
+    break
