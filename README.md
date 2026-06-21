@@ -52,3 +52,20 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - FPS determines temporal resolution
 - Frame sampling reduces storage and computation
 - OpenCV is widely used for computer vision pipelines
+
+## Day 4
+
+### Human Pose Estimation
+
+- Installed MediaPipe Pose
+- Detected 33 human body landmarks
+- Visualized skeleton overlays on video frames
+- Learned landmark coordinate representation
+- Debugged and fixed MediaPipe installation issues
+
+### Key Learnings
+
+- Human bodies can be represented as skeletons
+- Each landmark contains x, y, z coordinates
+- Skeleton representations are widely used in action recognition
+- Pose estimation converts visual information into numerical features
