@@ -69,3 +69,18 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - Each landmark contains x, y, z coordinates
 - Skeleton representations are widely used in action recognition
 - Pose estimation converts visual information into numerical features
+
+## Day 5
+
+### Landmark Dataset Generation
+
+- Extracted 33 MediaPipe body landmarks
+- Saved pose coordinates to CSV
+- Built structured dataset from video
+- Learned feature extraction pipeline
+
+### Dataset
+
+- 33 landmarks
+- 132 numerical features per frame
+- Stored in CSV format
