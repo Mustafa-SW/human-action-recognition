@@ -22,13 +22,6 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - Learned tensors
 - Created first PyTorch program
 
-## Upcoming Work
-
-- Dataset loading
-- Video processing
-- Pose estimation
-- Action classification
-
 ## Day 2
 
 - Learned Dataset class
