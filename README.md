@@ -84,3 +84,31 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - 33 landmarks
 - 132 numerical features per frame
 - Stored in CSV format
+
+## Day 6 
+
+## PyTorch Data Pipeline
+
+### Goals
+- Convert pose landmark CSV into PyTorch tensors.
+- Build a custom Dataset class.
+- Create DataLoaders for batching.
+
+### What I Learned
+- PyTorch Dataset objects manage training data.
+- DataLoader automatically creates batches.
+- Landmark features can be converted into tensors.
+- Data inspection is important before model training.
+
+### Key Concepts
+- Dataset
+- DataLoader
+- Feature Vectors
+- Tensor Conversion
+- Batch Processing
+
+### Results
+- Created PoseDataset class.
+- Loaded landmark CSV into PyTorch.
+- Generated training batches of shape [8, 132].
+
