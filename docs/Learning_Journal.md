@@ -57,3 +57,27 @@
 - Created PoseDataset class.
 - Loaded landmark CSV into PyTorch.
 - Generated training batches of shape [8, 132].
+
+## Day 7 - Model Training
+
+### Goals
+- Train a neural network using pose features.
+
+### What I Learned
+- Neural networks learn patterns from numerical features.
+- Forward propagation generates predictions.
+- Loss functions measure prediction quality.
+- Backpropagation updates model weights.
+- Trained models can be saved and reused.
+
+### Key Concepts
+- Neural Networks
+- ReLU
+- CrossEntropy Loss
+- Adam Optimizer
+- Model Serialization
+
+### Results
+- Built first pose classification model.
+- Trained using PyTorch.
+- Saved model weights to disk.

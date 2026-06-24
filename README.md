@@ -105,3 +105,24 @@ Build a Human Action Recognition system using skeleton keypoints extracted from 
 - Loaded landmark CSV into PyTorch.
 - Generated training batches of shape [8, 132].
 
+## Day 7
+
+### Pose Classification Model
+
+- Built a PyTorch neural network
+- Created a training pipeline
+- Used DataLoader batching
+- Implemented forward and backward propagation
+- Saved trained model weights
+
+### Architecture
+
+Input: 132 pose features
+
+132 → 64 → 32 → 2
+
+Activation: ReLU
+
+Optimizer: Adam
+
+Loss Function: CrossEntropyLoss
